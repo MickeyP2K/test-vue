@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" width="400">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="aablar logo" src="./assets/logo.png" width="400">
+    <p>The first global chatbot search engine...</p>
+    <MainSearch />
+
+    <!--<HelloWorld msg="Welcome to Vue..."/>-->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import HelloWorld from './components/HelloWorld.vue'
+    import MainSearch from './components/MainSearch.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+      HelloWorld,
+      MainSearch
   }
 }
 </script>
